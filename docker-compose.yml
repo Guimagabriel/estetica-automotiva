@@ -4,12 +4,11 @@ services:
   app:
     build: .
     ports:
-      
-"80:80"
-  volumes:
-./:/app
-depends_on:
-db
+      - "80:80"
+    volumes:
+      - ./:/app
+    depends_on:
+      - db
 
   db:
     image: postgres:14
@@ -17,8 +16,7 @@ db
       POSTGRES_PASSWORD: password
       POSTGRES_DB: appdb
     volumes:
-      
-postgresql-data:/var/lib/postgresql/data
+      - postgresql-data:/var/lib/postgresql/data
 
 volumes:
   postgresql-data:
