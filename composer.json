@@ -1,0 +1,20 @@
+{
+    "name": "rodrigo/estetica-automotiva",
+    "description": "Site de estética automotiva",
+    "type": "project",
+    "require-dev": {
+        "league/plates": "^3.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Rodrigo\\EsteticaAutomotiva\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "rodrigoSuperbi",
+            "email": "rodrigosuperbi@outlook.com"
+        }
+    ],
+    "require": {}
+}
