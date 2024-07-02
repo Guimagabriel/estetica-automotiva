@@ -7,7 +7,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Rodrigo\\EsteticaAutomotiva\\": "src/"
+            "App\\": "src/"
         }
     },
     "authors": [
