@@ -5,24 +5,26 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Small Business - Start Bootstrap Template</title>
+        <title>Estética Auto</title>
         <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <link rel="icon" type="image/x-icon" href="/resources/assets/favicon.ico" />
         <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
+        <link href="/resources/css/styles.css" rel="stylesheet" />
     </head>
     <body>
         <!-- Responsive navbar-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container px-5">
-                <a class="navbar-brand" href="#!">Start Bootstrap</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <a class="navbar-brand" href="index.php">Estética Auto</a>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">Contact</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">Services</a></li>
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex justify-content-between">
+                        <li class="nav-item"><a class="nav-link" href="#!">Serviços</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#!">Contato</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#!">Sobre</a></li>
+                        <li class="nav-item d-flex" style="gap: 10px;">
+                        <button type="button" class="btn btn-outline-primary">Login</button>
+                        <button type="button" class="btn btn-primary">Criar Conta</button>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -33,8 +35,8 @@
             <div class="row gx-4 gx-lg-5 align-items-center my-5">
                 <div class="col-lg-7"><img class="img-fluid rounded mb-4 mb-lg-0" src="https://dummyimage.com/900x400/dee2e6/6c757d.jpg" alt="..." /></div>
                 <div class="col-lg-5">
-                    <h1 class="font-weight-light">Business Name or Tagline</h1>
-                    <p>This is a template that is great for small businesses. It doesn't have too much fancy flare to it, but it makes a great use of the standard Bootstrap core components. Feel free to use this template for any project you want!</p>
+                    <h1 class="font-weight-light">Estética Automotiva</h1>
+                    <p>Transforme seu carro em uma obra-prima sobre rodas! Oferecemos serviços de estética automotiva de alta qualidade, desde lavagem e polimento até detalhamento completo. Nossa equipe de profissionais apaixonados utiliza produtos premium e técnicas avançadas para restaurar o brilho e a beleza do seu veículo.</p>
                     <a class="btn btn-primary" href="#!">Call to Action!</a>
                 </div>
             </div>
@@ -80,6 +82,6 @@
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
+        <script src="/resources/js/scripts.js"></script>
     </body>
 </html>
